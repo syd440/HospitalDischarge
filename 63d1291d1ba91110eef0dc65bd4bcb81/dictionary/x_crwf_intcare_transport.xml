@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d97456911bad1110eef0dc65bd4bcbbe" label="Transport" max_length="40" name="x_crwf_intcare_transport" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Booked" max_length="40" name="booked" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Driver" max_length="40" name="driver" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient" max_length="32" name="patient" reference="x_crwf_intcare_patient" type="reference"/>
+        <element label="Patient number" max_length="40" name="patient_number" type="string"/>
+        <element label="Time" max_length="40" name="time" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ambulance" sequence="0" value="Ambulance"/>
+                <element inactive_on_update="false" label="Taxi" sequence="0" value="Taxi"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle reference" max_length="40" name="vehicle_reference" type="string"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

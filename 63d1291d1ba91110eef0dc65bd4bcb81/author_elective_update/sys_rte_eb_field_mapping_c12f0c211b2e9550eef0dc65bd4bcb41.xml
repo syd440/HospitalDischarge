@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="DELETE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="Ward">531e84ed1bea9550eef0dc65bd4bcb69</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:28:14</sys_created_on>
+        <sys_id>c12f0c211b2e9550eef0dc65bd4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Import beds_etl_ihub">b6edccad1bea9550eef0dc65bd4bcb1e</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_SOURCE_TEMP_MAPPING">452f0c211b2e9550eef0dc65bd4bcb3f</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_c12f0c211b2e9550eef0dc65bd4bcb41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:28:14</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Ward_sn_ihub_target_ward">012f0c211b2e9550eef0dc65bd4bcb21</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_rte_eb_field_mapping_c12f0c211b2e9550eef0dc65bd4bcb41</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>100</order><referenced_sys_rte_eb_entity/><source_sys_rte_eb_field display_value="Ward">531e84ed1bea9550eef0dc65bd4bcb69</source_sys_rte_eb_field><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-14 15:28:14</sys_created_on><sys_id>c12f0c211b2e9550eef0dc65bd4bcb41</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_rte_eb_definition display_value="Import beds_etl_ihub">b6edccad1bea9550eef0dc65bd4bcb1e</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="IHUB_SOURCE_TEMP_MAPPING">452f0c211b2e9550eef0dc65bd4bcb3f</sys_rte_eb_entity_mapping><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_rte_eb_field_mapping_c12f0c211b2e9550eef0dc65bd4bcb41</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-14 15:28:14</sys_updated_on><target_sys_rte_eb_field display_value="Ward_sn_ihub_target_ward">012f0c211b2e9550eef0dc65bd4bcb21</target_sys_rte_eb_field></sys_rte_eb_field_mapping></record_update>]]></payload>
+        <payload_hash>-480310182</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:28:14</sys_created_on>
+        <sys_id>892f0c211b2e9550eef0dc65bd4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183d71c393c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:28:14</sys_updated_on>
+        <type>RTE Field Mapping</type>
+        <update_guid>c12f0c21732e9550df9aa15272968b42</update_guid>
+        <update_guid_history>c12f0c21732e9550df9aa15272968b42:-480310182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:28:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field_mapping">sys_rte_eb_field_mapping</sys_db_object>
+        <sys_id>10789744ac89456c8c7ccdd4d9d58e10</sys_id>
+        <sys_metadata>c12f0c211b2e9550eef0dc65bd4bcb41</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_mapping_c12f0c211b2e9550eef0dc65bd4bcb41</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_mapping_c12f0c211b2e9550eef0dc65bd4bcb41">892f0c211b2e9550eef0dc65bd4bcb42</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

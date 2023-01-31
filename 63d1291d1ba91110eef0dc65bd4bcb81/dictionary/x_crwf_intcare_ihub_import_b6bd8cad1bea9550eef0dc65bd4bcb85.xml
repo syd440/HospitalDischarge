@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c23e08ed1bea9550eef0dc65bd4bcbc7" extends="sys_import_set_row" label="Import beds" max_length="40" name="x_crwf_intcare_ihub_import_b6bd8cad1bea9550eef0dc65bd4bcb85" type="collection">
+        <element attributes="import_attribute_name=Bed Number" label="Bed Number" max_length="40" name="u_bed_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Occupied" label="Occupied" max_length="40" name="u_occupied" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Patient" label="Patient" max_length="40" name="u_patient" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ward" label="Ward" max_length="40" name="u_ward" type="string"/>
+    </element>
+</database>

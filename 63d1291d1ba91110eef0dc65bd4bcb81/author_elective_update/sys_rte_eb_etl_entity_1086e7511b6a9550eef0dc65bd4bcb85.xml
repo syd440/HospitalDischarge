@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="DELETE">
+        <child_id_field/>
+        <name>IHUB_TARGET_TEMP_x_crwf_intcare_patient</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>Temp_x_crwf_intcare_patient</path>
+        <run_business_rules>false</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 12:30:41</sys_created_on>
+        <sys_id>1086e7511b6a9550eef0dc65bd4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TARGET_TEMP_x_crwf_intcare_patient</sys_name>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Import missing fields_etl_ihub">0166e7511b6a9550eef0dc65bd4bcb72</sys_rte_eb_definition>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_1086e7511b6a9550eef0dc65bd4bcb85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 12:30:41</sys_updated_on>
+        <table/>
+    </sys_rte_eb_etl_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_rte_eb_etl_entity_1086e7511b6a9550eef0dc65bd4bcb85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity"><sys_rte_eb_etl_entity action="INSERT_OR_UPDATE"><child_id_field/><name>IHUB_TARGET_TEMP_x_crwf_intcare_patient</name><parent_entity/><parent_id_field/><path>Temp_x_crwf_intcare_patient</path><run_business_rules>false</run_business_rules><synchronize_inserts>false</synchronize_inserts><sys_class_name>sys_rte_eb_etl_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-14 12:30:41</sys_created_on><sys_id>1086e7511b6a9550eef0dc65bd4bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IHUB_TARGET_TEMP_x_crwf_intcare_patient</sys_name><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_rte_eb_definition display_value="Import missing fields_etl_ihub">0166e7511b6a9550eef0dc65bd4bcb72</sys_rte_eb_definition><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_rte_eb_etl_entity_1086e7511b6a9550eef0dc65bd4bcb85</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-14 12:30:41</sys_updated_on><table/></sys_rte_eb_etl_entity></record_update>]]></payload>
+        <payload_hash>-511142089</payload_hash>
+        <record_name>IHUB_TARGET_TEMP_x_crwf_intcare_patient</record_name>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 12:30:41</sys_created_on>
+        <sys_id>1886e7511b6a9550eef0dc65bd4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183d679ad220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 12:30:41</sys_updated_on>
+        <type>ETL Entity</type>
+        <update_guid>5086e7516e6a9550785d8d33fa38e486</update_guid>
+        <update_guid_history>5086e7516e6a9550785d8d33fa38e486:-511142089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-14 12:59:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_entity">sys_rte_eb_etl_entity</sys_db_object>
+        <sys_id>34a34fd2ccbf4016b316c8ac22697604</sys_id>
+        <sys_metadata>1086e7511b6a9550eef0dc65bd4bcb85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TARGET_TEMP_x_crwf_intcare_patient</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_entity_1086e7511b6a9550eef0dc65bd4bcb85</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_entity_1086e7511b6a9550eef0dc65bd4bcb85">1886e7511b6a9550eef0dc65bd4bcb86</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

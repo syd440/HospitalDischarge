@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description>Steps the team through the actions that need to happen to discharge a patient as quickly as possible</description>
+        <label>Discharge Process</label>
+        <name>discharge_process</name>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 11:39:39</sys_created_on>
+        <sys_id>96ba7aa01bb69910eef0dc65bd4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Discharge Process</sys_name>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_pd_process_definition_96ba7aa01bb69910eef0dc65bd4bcb8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 11:39:39</sys_updated_on>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description>Steps the team through the actions that need to happen to discharge a patient as quickly as possible</description>
+        <label>Discharge Process</label>
+        <name>discharge_process</name>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 11:39:39</sys_created_on>
+        <sys_id>96ba7aa01bb69910eef0dc65bd4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Discharge Process</sys_name>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_pd_process_definition_96ba7aa01bb69910eef0dc65bd4bcb8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 11:39:39</sys_updated_on>
+    </sys_pd_process_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_pd_process_definition_96ba7aa01bb69910eef0dc65bd4bcb8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description>Steps the team through the actions that need to happen to discharge a patient as quickly as possible</description><label>Discharge Process</label><name>discharge_process</name><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-24 11:39:39</sys_created_on><sys_id>96ba7aa01bb69910eef0dc65bd4bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Discharge Process</sys_name><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_pd_process_definition_96ba7aa01bb69910eef0dc65bd4bcb8d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-24 11:39:39</sys_updated_on></sys_pd_process_definition><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description>Steps the team through the actions that need to happen to discharge a patient as quickly as possible</description><label>Discharge Process</label><name>discharge_process</name><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-24 11:39:39</sys_created_on><sys_id>96ba7aa01bb69910eef0dc65bd4bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Discharge Process</sys_name><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_pd_process_definition_96ba7aa01bb69910eef0dc65bd4bcb8d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-24 11:39:39</sys_updated_on></sys_pd_process_definition></record_update>]]></payload>
+        <payload_hash>889223887</payload_hash>
+        <record_name>Discharge Process</record_name>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 11:39:39</sys_created_on>
+        <sys_id>9aba7aa01bb69910eef0dc65bd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18409ca89330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 11:39:39</sys_updated_on>
+        <type>Process Definition</type>
+        <update_guid>92ba7aa054b699105a37f001bba7d38f</update_guid>
+        <update_guid_history>92ba7aa054b699105a37f001bba7d38f:889223887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 11:39:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>3dd009e2506d4ebc963cf2b955a248a4</sys_id>
+        <sys_metadata>96ba7aa01bb69910eef0dc65bd4bcb8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Discharge Process</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_96ba7aa01bb69910eef0dc65bd4bcb8d</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_96ba7aa01bb69910eef0dc65bd4bcb8d">9aba7aa01bb69910eef0dc65bd4bcb8f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

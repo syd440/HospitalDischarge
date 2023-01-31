@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 13:46:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9489ad545ad11103dae5fd0cac1a9ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>m2m_app_config_theme_e9489ad545ad11103dae5fd0cac1a9ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:51:57</sys_updated_on>
+        <theme display_value="Starter Workspace Theme">a9489ad5d2ad11101e267f68d6347dea</theme>
+        <ux_app_configuration display_value="IntCare Config">69489ad5dead1110e343f1f8f4b74fea</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

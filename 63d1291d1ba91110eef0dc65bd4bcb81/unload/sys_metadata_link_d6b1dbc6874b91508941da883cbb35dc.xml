@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>69b0c24e870791508941da883cbb35ee</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_crwf_intcare_patient">
+    <x_crwf_intcare_patient action="INSERT_OR_UPDATE">
+        <bed display_value="McDermott 6">c9cfca1d1b6d1110eef0dc65bd4bcbf3</bed>
+        <care_home_booking/>
+        <comments/>
+        <critical_care_required>false</critical_care_required>
+        <date_admitted>2022-11-01</date_admitted>
+        <date_discharged/>
+        <days_on_ward>9</days_on_ward>
+        <discharge_to/>
+        <keep_on_refresh>true</keep_on_refresh>
+        <medical_supplies_required>false</medical_supplies_required>
+        <medicines_required>false</medicines_required>
+        <notes/>
+        <number>PAT0001230</number>
+        <nursing_team display_value="Discharge Team" name="Discharge Team">0e2412651b6d5110eef0dc65bd4bcbb9</nursing_team>
+        <patient_number>P543429</patient_number>
+        <person display_value="Terrance Nimmer">5e826bf03710200044e0bfc8bcbe5da1</person>
+        <round_the_clock_care_required>false</round_the_clock_care_required>
+        <status>3 - Ready for discharge</status>
+        <sys_class_name>x_crwf_intcare_patient</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 09:32:48</sys_created_on>
+        <sys_id>69b0c24e870791508941da883cbb35ee</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 11:18:00</sys_updated_on>
+        <transport_booking/>
+        <transport_required>false</transport_required>
+    </x_crwf_intcare_patient>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 15:26:44</sys_created_on>
+        <sys_id>d6b1dbc6874b91508941da883cbb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terrance Nimmer</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_metadata_link_d6b1dbc6874b91508941da883cbb35dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:51:33</sys_updated_on>
+        <tablename>x_crwf_intcare_patient</tablename>
+    </sys_metadata_link>
+</record_update>

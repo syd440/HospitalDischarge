@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>ih_import_FD5b0e04edcbea955091e965e784d0e8a2</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>63d1291d1ba91110eef0dc65bd4bcb81</scope_name>
+        <serialized_content>{"FlowDesigner:ih_import_FD5b0e04edcbea955091e965e784d0e8a2":{"u_name":"String","u_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_patient":"String","u_patient.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Patient\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_bed_number":"Integer","u_bed_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"integer\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Bed Number\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_occupied":"String","u_occupied.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Occupied\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_ward":"String","u_ward.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ward\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:ih_import_FD5b0e04edcbea955091e965e784d0e8a2.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"ih_import_FD5b0e04edcbea955091e965e784d0e8a2\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:23:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db0e04ed1bea9550eef0dc65bd4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ih_import_FD5b0e04edcbea955091e965e784d0e8a2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_complex_object_db0e04ed1bea9550eef0dc65bd4bcba2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:23:28</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_complex_object_db0e04ed1bea9550eef0dc65bd4bcba2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object"><sys_complex_object action="INSERT_OR_UPDATE"><label/><name>ih_import_FD5b0e04edcbea955091e965e784d0e8a2</name><namespace>FlowDesigner</namespace><scope_name>63d1291d1ba91110eef0dc65bd4bcb81</scope_name><serialized_content>{"FlowDesigner:ih_import_FD5b0e04edcbea955091e965e784d0e8a2":{"u_name":"String","u_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_patient":"String","u_patient.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Patient\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_bed_number":"Integer","u_bed_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"integer\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Bed Number\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_occupied":"String","u_occupied.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Occupied\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_ward":"String","u_ward.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ward\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:ih_import_FD5b0e04edcbea955091e965e784d0e8a2.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"ih_import_FD5b0e04edcbea955091e965e784d0e8a2\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content><sys_class_name>sys_complex_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-14 15:23:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>db0e04ed1bea9550eef0dc65bd4bcba2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ih_import_FD5b0e04edcbea955091e965e784d0e8a2</sys_name><sys_overrides/><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_complex_object_db0e04ed1bea9550eef0dc65bd4bcba2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-14 15:23:28</sys_updated_on><type>complex_object_schema</type></sys_complex_object></record_update>]]></payload>
+        <payload_hash>177114481</payload_hash>
+        <record_name>ih_import_FD5b0e04edcbea955091e965e784d0e8a2</record_name>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:23:28</sys_created_on>
+        <sys_id>d30e04ed1bea9550eef0dc65bd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183d717db7b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:23:28</sys_updated_on>
+        <type>Complex Object</type>
+        <update_guid>1f0e04eda9ea95507a3e9633fd1cb8a3</update_guid>
+        <update_guid_history>1f0e04eda9ea95507a3e9633fd1cb8a3:177114481</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 15:51:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_complex_object">sys_complex_object</sys_db_object>
+        <sys_id>34e9e4f3559642429678c21cafdfb251</sys_id>
+        <sys_metadata>db0e04ed1bea9550eef0dc65bd4bcba2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ih_import_FD5b0e04edcbea955091e965e784d0e8a2</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_complex_object_db0e04ed1bea9550eef0dc65bd4bcba2</sys_update_name>
+        <sys_update_version display_value="sys_complex_object_db0e04ed1bea9550eef0dc65bd4bcba2">d30e04ed1bea9550eef0dc65bd4bcba4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

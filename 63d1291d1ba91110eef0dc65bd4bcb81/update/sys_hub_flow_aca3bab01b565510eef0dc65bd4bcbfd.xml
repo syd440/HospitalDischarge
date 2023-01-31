@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>patient_management</internal_name>
+        <label_cache>[{"name":"0c87497b-0b06-4a64-87ec-76b1a444a167.record","label":"1 - Update Record➛Patient Record","reference":"x_crwf_intcare_patient","reference_display":"Patient Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c87497b-0b06-4a64-87ec-76b1a444a167.table_name","label":"1 - Update Record➛Patient Table","reference":"x_crwf_intcare_patient","reference_display":"Patient Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c87497b-0b06-4a64-87ec-76b1a444a167.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"0c87497b-0b06-4a64-87ec-76b1a444a167.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Patient Record","reference":"x_crwf_intcare_patient","reference_display":"Patient","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.bed.ward","label":"Trigger - Record Created➛Patient Record➛Bed➛Ward","reference":"","reference_display":"Ward","type":"choice","base_type":"choice","parent_table_name":"x_crwf_intcare_bed","column_name":"ward","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Haverty","image":"","rawLabel":"Haverty","selected":false,"missing":false,"reference":false,"value":"Haverty","parameters":{"name":"x_crwf_intcare_bed"}},{"used":false,"label":"Luddy","image":"","rawLabel":"Luddy","selected":false,"missing":false,"reference":false,"value":"Luddy","parameters":{"name":"x_crwf_intcare_bed"}},{"used":false,"label":"McDermott","image":"","rawLabel":"McDermott","selected":false,"missing":false,"reference":false,"value":"McDermott","parameters":{"name":"x_crwf_intcare_bed"}}]},{"name":"1feb68ed-6392-48d3-b597-2c4311f158da.record","label":"3 - Update Record➛Patient Record","reference":"x_crwf_intcare_patient","reference_display":"Patient Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1feb68ed-6392-48d3-b597-2c4311f158da.table_name","label":"3 - Update Record➛Patient Table","reference":"x_crwf_intcare_patient","reference_display":"Patient Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1feb68ed-6392-48d3-b597-2c4311f158da.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"1feb68ed-6392-48d3-b597-2c4311f158da.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"99864ba8-d1f7-4612-be9e-46e5ab56bd55.record","label":"5 - Update Record➛Patient Record","reference":"x_crwf_intcare_patient","reference_display":"Patient Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99864ba8-d1f7-4612-be9e-46e5ab56bd55.table_name","label":"5 - Update Record➛Patient Table","reference":"x_crwf_intcare_patient","reference_display":"Patient Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99864ba8-d1f7-4612-be9e-46e5ab56bd55.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"99864ba8-d1f7-4612-be9e-46e5ab56bd55.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"b1bc81fb-11c4-49cc-ad35-4f65047cacdc.record","label":"7 - Update Record➛Patient Record","reference":"x_crwf_intcare_patient","reference_display":"Patient Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b1bc81fb-11c4-49cc-ad35-4f65047cacdc.table_name","label":"7 - Update Record➛Patient Table","reference":"x_crwf_intcare_patient","reference_display":"Patient Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b1bc81fb-11c4-49cc-ad35-4f65047cacdc.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"b1bc81fb-11c4-49cc-ad35-4f65047cacdc.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"3998b388-3d38-422f-adb9-9a8f0be3eb05.state","label":"9 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"3998b388-3d38-422f-adb9-9a8f0be3eb05.__action_status__","label":"9 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3998b388-3d38-422f-adb9-9a8f0be3eb05.__dont_treat_as_error__","label":"9 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"364fcdb2-2cc5-4506-866d-3cbe21d73126.record","label":"11 - Update Record➛Patient Record","reference":"x_crwf_intcare_patient","reference_display":"Patient Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"364fcdb2-2cc5-4506-866d-3cbe21d73126.table_name","label":"11 - Update Record➛Patient Table","reference":"x_crwf_intcare_patient","reference_display":"Patient Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"364fcdb2-2cc5-4506-866d-3cbe21d73126.__action_status__","label":"11 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"364fcdb2-2cc5-4506-866d-3cbe21d73126.__dont_treat_as_error__","label":"11 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"db4d910a-2594-4596-a5cb-c18dedfa7751.__action_status__","label":"8 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"db4d910a-2594-4596-a5cb-c18dedfa7751.__dont_treat_as_error__","label":"8 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"c3856022-8cd2-471a-98c2-3c49b74b2871.record","label":"13 - Update Record➛Patient Record","reference":"x_crwf_intcare_patient","reference_display":"Patient Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c3856022-8cd2-471a-98c2-3c49b74b2871.table_name","label":"13 - Update Record➛Patient Table","reference":"x_crwf_intcare_patient","reference_display":"Patient Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c3856022-8cd2-471a-98c2-3c49b74b2871.__action_status__","label":"13 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"c3856022-8cd2-471a-98c2-3c49b74b2871.__dont_treat_as_error__","label":"13 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"86891dfb-6c2e-4e87-97e7-9597d5ac68fb.state","label":"14 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"86891dfb-6c2e-4e87-97e7-9597d5ac68fb.__action_status__","label":"14 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"86891dfb-6c2e-4e87-97e7-9597d5ac68fb.__dont_treat_as_error__","label":"14 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"37013793-5389-4e52-81ed-92d2a315c477.__action_status__","label":"15 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"37013793-5389-4e52-81ed-92d2a315c477.__dont_treat_as_error__","label":"15 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Patient Management</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:15:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aca3bab01b565510eef0dc65bd4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_hub_flow_aca3bab01b565510eef0dc65bd4bcbfd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:52:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=aca3bab01b565510eef0dc65bd4bcbfd^sys_idNOT IN31463a741b565510eef0dc65bd4bcb84"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>31463a741b565510eef0dc65bd4bcb84</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=31463a741b565510eef0dc65bd4bcb84"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>31463a741b565510eef0dc65bd4bcb84</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f5463a741b565510eef0dc65bd4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>31463a741b565510eef0dc65bd4bcb84</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>fd463a741b565510eef0dc65bd4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=aca3bab01b565510eef0dc65bd4bcbfd^sys_idNOT IN2ca3bab01b565510eef0dc65bd4bcbff"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>aca3bab01b565510eef0dc65bd4bcbfd</id>
+        <name>Patient Management</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:15:46</sys_created_on>
+        <sys_id>2ca3bab01b565510eef0dc65bd4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:15:46</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2ca3bab01b565510eef0dc65bd4bcbff"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=aca3bab01b565510eef0dc65bd4bcbfd^sys_idNOT IN65463a741b565510eef0dc65bd4bcb7a,f9463a741b565510eef0dc65bd4bcb7e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</model>
+        <model_id>aca3bab01b565510eef0dc65bd4bcbfd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_aca3bab01b565510eef0dc65bd4bcbfd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>65463a741b565510eef0dc65bd4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</model>
+        <model_id>aca3bab01b565510eef0dc65bd4bcbfd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_aca3bab01b565510eef0dc65bd4bcbfd</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f9463a741b565510eef0dc65bd4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=aca3bab01b565510eef0dc65bd4bcbfd^sys_idNOT IN31463a741b565510eef0dc65bd4bcb8a,35463a741b565510eef0dc65bd4bcbca,79463a741b565510eef0dc65bd4bcb95,7d463a741b565510eef0dc65bd4bcba8,86463a741b565510eef0dc65bd4bcbd9,8e463a741b565510eef0dc65bd4bcbde,bd463a741b565510eef0dc65bd4bcbb3,f5463a741b565510eef0dc65bd4bcb9f,fd463a741b565510eef0dc65bd4bcbad,fd463a741b565510eef0dc65bd4bcbd2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Admit patient to a ward</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>31463a741b565510eef0dc65bd4bcb8a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>0c87497b-0b06-4a64-87ec-76b1a444a167</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=31463a741b565510eef0dc65bd4bcb8a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>31463a741b565510eef0dc65bd4bcb8a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>75463a741b565510eef0dc65bd4bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=31463a741b565510eef0dc65bd4bcb8a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>31463a741b565510eef0dc65bd4bcb8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f1463a741b565510eef0dc65bd4bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>31463a741b565510eef0dc65bd4bcb8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f9463a741b565510eef0dc65bd4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=31463a741b565510eef0dc65bd4bcb8a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=31463a741b565510eef0dc65bd4bcb8a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Allocate Transport slot</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>11</order>
+        <parent_ui_id>893bb097-5a7d-4426-b4ed-2d5bdd0f4cd9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>35463a741b565510eef0dc65bd4bcbca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>364fcdb2-2cc5-4506-866d-3cbe21d73126</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=35463a741b565510eef0dc65bd4bcbca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>35463a741b565510eef0dc65bd4bcbca</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>b9463a741b565510eef0dc65bd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=35463a741b565510eef0dc65bd4bcbca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>35463a741b565510eef0dc65bd4bcbca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>39463a741b565510eef0dc65bd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>35463a741b565510eef0dc65bd4bcbca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>75463a741b565510eef0dc65bd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=35463a741b565510eef0dc65bd4bcbca"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=35463a741b565510eef0dc65bd4bcbca"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Assign to Luddy Nursing Team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>3</order>
+        <parent_ui_id>e442dde2-3ef2-44ed-a65d-9c7f587dc184</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>79463a741b565510eef0dc65bd4bcb95</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>1feb68ed-6392-48d3-b597-2c4311f158da</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=79463a741b565510eef0dc65bd4bcb95"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>79463a741b565510eef0dc65bd4bcb95</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>75463a741b565510eef0dc65bd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>79463a741b565510eef0dc65bd4bcb95</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>b1463a741b565510eef0dc65bd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>nursing_team={"display":"Luddy Nursing team","value":"80b356251b6d5110eef0dc65bd4bcba9","sys_id":"80b356251b6d5110eef0dc65bd4bcba9"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=79463a741b565510eef0dc65bd4bcb95"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>79463a741b565510eef0dc65bd4bcb95</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>31463a741b565510eef0dc65bd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>79463a741b565510eef0dc65bd4bcb95</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>b9463a741b565510eef0dc65bd4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>79463a741b565510eef0dc65bd4bcb95</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>7d463a741b565510eef0dc65bd4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=79463a741b565510eef0dc65bd4bcb95"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=79463a741b565510eef0dc65bd4bcb95"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Assign to Haverty Nursing Team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>7</order>
+        <parent_ui_id>6f0e1463-4f79-4426-9456-2554fc26b766</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>7d463a741b565510eef0dc65bd4bcba8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>b1bc81fb-11c4-49cc-ad35-4f65047cacdc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7d463a741b565510eef0dc65bd4bcba8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7d463a741b565510eef0dc65bd4bcba8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>79463a741b565510eef0dc65bd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7d463a741b565510eef0dc65bd4bcba8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>b5463a741b565510eef0dc65bd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>nursing_team={"display":"Haverty Nursing Team","value":"67e39a251b6d5110eef0dc65bd4bcb41","sys_id":"67e39a251b6d5110eef0dc65bd4bcb41"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7d463a741b565510eef0dc65bd4bcba8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7d463a741b565510eef0dc65bd4bcba8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>35463a741b565510eef0dc65bd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7d463a741b565510eef0dc65bd4bcba8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>bd463a741b565510eef0dc65bd4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7d463a741b565510eef0dc65bd4bcba8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>71463a741b565510eef0dc65bd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d463a741b565510eef0dc65bd4bcba8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7d463a741b565510eef0dc65bd4bcba8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>14</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>86463a741b565510eef0dc65bd4bcbd9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <ui_id>86891dfb-6c2e-4e87-97e7-9597d5ac68fb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=86463a741b565510eef0dc65bd4bcbd9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>86463a741b565510eef0dc65bd4bcbd9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>0a463a741b565510eef0dc65bd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>86463a741b565510eef0dc65bd4bcbd9</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>46463a741b565510eef0dc65bd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <value>status=Discharged</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=86463a741b565510eef0dc65bd4bcbd9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>86463a741b565510eef0dc65bd4bcbd9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>02463a741b565510eef0dc65bd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>86463a741b565510eef0dc65bd4bcbd9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>4e463a741b565510eef0dc65bd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>86463a741b565510eef0dc65bd4bcbd9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>c2463a741b565510eef0dc65bd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=86463a741b565510eef0dc65bd4bcbd9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=86463a741b565510eef0dc65bd4bcbd9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment>Notify Ward Nursing Team and Consultant</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>15</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>8e463a741b565510eef0dc65bd4bcbde</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <ui_id>37013793-5389-4e52-81ed-92d2a315c477</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8e463a741b565510eef0dc65bd4bcbde"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27^id=8e463a741b565510eef0dc65bd4bcbde"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8e463a741b565510eef0dc65bd4bcbde"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8e463a741b565510eef0dc65bd4bcbde"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>bd463a741b565510eef0dc65bd4bcbb3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>3998b388-3d38-422f-adb9-9a8f0be3eb05</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bd463a741b565510eef0dc65bd4bcbb3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bd463a741b565510eef0dc65bd4bcbb3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>7d463a741b565510eef0dc65bd4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bd463a741b565510eef0dc65bd4bcbb3</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>b9463a741b565510eef0dc65bd4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>status=Ready for discharge</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bd463a741b565510eef0dc65bd4bcbb3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>bd463a741b565510eef0dc65bd4bcbb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>75463a741b565510eef0dc65bd4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bd463a741b565510eef0dc65bd4bcbb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>b1463a741b565510eef0dc65bd4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bd463a741b565510eef0dc65bd4bcbb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>39463a741b565510eef0dc65bd4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bd463a741b565510eef0dc65bd4bcbb3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bd463a741b565510eef0dc65bd4bcbb3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Assign to McDermott Nursing Team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>5</order>
+        <parent_ui_id>7a3ba671-5b8c-43dd-ae99-8d4010dd6bc2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f5463a741b565510eef0dc65bd4bcb9f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>99864ba8-d1f7-4612-be9e-46e5ab56bd55</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f5463a741b565510eef0dc65bd4bcb9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f5463a741b565510eef0dc65bd4bcb9f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>31463a741b565510eef0dc65bd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>nursing_team={"display":"McDermott Nursing Team","value":"05d356251b6d5110eef0dc65bd4bcbae","sys_id":"05d356251b6d5110eef0dc65bd4bcbae"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f5463a741b565510eef0dc65bd4bcb9f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f1463a741b565510eef0dc65bd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f5463a741b565510eef0dc65bd4bcb9f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f5463a741b565510eef0dc65bd4bcb9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>bd463a741b565510eef0dc65bd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f5463a741b565510eef0dc65bd4bcb9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>39463a741b565510eef0dc65bd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f5463a741b565510eef0dc65bd4bcb9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f9463a741b565510eef0dc65bd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f5463a741b565510eef0dc65bd4bcb9f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f5463a741b565510eef0dc65bd4bcb9f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment>Notify appropriate Nursing Team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>fd463a741b565510eef0dc65bd4bcbad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>db4d910a-2594-4596-a5cb-c18dedfa7751</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fd463a741b565510eef0dc65bd4bcbad"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27^id=fd463a741b565510eef0dc65bd4bcbad"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fd463a741b565510eef0dc65bd4bcbad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fd463a741b565510eef0dc65bd4bcbad"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Allocate Care Home slot</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <order>13</order>
+        <parent_ui_id>15cff940-a785-4ada-b1e2-5f5e17aadda4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>fd463a741b565510eef0dc65bd4bcbd2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <ui_id>c3856022-8cd2-471a-98c2-3c49b74b2871</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fd463a741b565510eef0dc65bd4bcbd2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fd463a741b565510eef0dc65bd4bcbd2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>75463a741b565510eef0dc65bd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <value>x_crwf_intcare_patient</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fd463a741b565510eef0dc65bd4bcbd2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fd463a741b565510eef0dc65bd4bcbd2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>f1463a741b565510eef0dc65bd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fd463a741b565510eef0dc65bd4bcbd2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>31463a741b565510eef0dc65bd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fd463a741b565510eef0dc65bd4bcbd2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fd463a741b565510eef0dc65bd4bcbd2"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=aca3bab01b565510eef0dc65bd4bcbfd^sys_idNOT IN39463a741b565510eef0dc65bd4bcb8d,71463a741b565510eef0dc65bd4bcb98,b5463a741b565510eef0dc65bd4bcbcc,f9463a741b565510eef0dc65bd4bcbc3,fd463a741b565510eef0dc65bd4bcba1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f9463a741b565510eef0dc65bd4bcb8c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>39463a741b565510eef0dc65bd4bcb8d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>e442dde2-3ef2-44ed-a65d-9c7f587dc184</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=39463a741b565510eef0dc65bd4bcb8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>39463a741b565510eef0dc65bd4bcb8d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>79463a741b565510eef0dc65bd4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>Ward is Luddy</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=39463a741b565510eef0dc65bd4bcb8d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>39463a741b565510eef0dc65bd4bcb8d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f5463a741b565510eef0dc65bd4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.bed.ward}}=Luddy</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>39463a741b565510eef0dc65bd4bcb8d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>35463a741b565510eef0dc65bd4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=39463a741b565510eef0dc65bd4bcb8d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=39463a741b565510eef0dc65bd4bcb8d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">79463a741b565510eef0dc65bd4bcb97</block>
+        <comment/>
+        <connected_to>e442dde2-3ef2-44ed-a65d-9c7f587dc184</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>71463a741b565510eef0dc65bd4bcb98</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>7a3ba671-5b8c-43dd-ae99-8d4010dd6bc2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=71463a741b565510eef0dc65bd4bcb98"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>71463a741b565510eef0dc65bd4bcb98</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>79463a741b565510eef0dc65bd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>Ward is McDermott</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=71463a741b565510eef0dc65bd4bcb98"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>71463a741b565510eef0dc65bd4bcb98</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f5463a741b565510eef0dc65bd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.bed.ward}}=McDermott</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>71463a741b565510eef0dc65bd4bcb98</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>35463a741b565510eef0dc65bd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=71463a741b565510eef0dc65bd4bcb98"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=71463a741b565510eef0dc65bd4bcb98"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bd463a741b565510eef0dc65bd4bcbcb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>b5463a741b565510eef0dc65bd4bcbcc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <ui_id>15cff940-a785-4ada-b1e2-5f5e17aadda4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b5463a741b565510eef0dc65bd4bcbcc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b5463a741b565510eef0dc65bd4bcbcc</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:20</sys_created_on>
+        <sys_id>f1463a741b565510eef0dc65bd4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:20</sys_updated_on>
+        <value>Care Home required</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e^id=b5463a741b565510eef0dc65bd4bcbcc"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b5463a741b565510eef0dc65bd4bcbcc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b5463a741b565510eef0dc65bd4bcbcc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f1463a741b565510eef0dc65bd4bcbc3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>f9463a741b565510eef0dc65bd4bcbc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>893bb097-5a7d-4426-b4ed-2d5bdd0f4cd9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f9463a741b565510eef0dc65bd4bcbc3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f9463a741b565510eef0dc65bd4bcbc3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>39463a741b565510eef0dc65bd4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>Transport Required</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e^id=f9463a741b565510eef0dc65bd4bcbc3"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f9463a741b565510eef0dc65bd4bcbc3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f9463a741b565510eef0dc65bd4bcbc3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f5463a741b565510eef0dc65bd4bcba1</block>
+        <comment/>
+        <connected_to>e442dde2-3ef2-44ed-a65d-9c7f587dc184</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Patient Management">aca3bab01b565510eef0dc65bd4bcbfd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>fd463a741b565510eef0dc65bd4bcba1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <ui_id>6f0e1463-4f79-4426-9456-2554fc26b766</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fd463a741b565510eef0dc65bd4bcba1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>fd463a741b565510eef0dc65bd4bcba1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>71463a741b565510eef0dc65bd4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <value>Ward is Haverty</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fd463a741b565510eef0dc65bd4bcba1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fd463a741b565510eef0dc65bd4bcba1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>fd463a741b565510eef0dc65bd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.bed.ward}}=Haverty</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>fd463a741b565510eef0dc65bd4bcba1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>3d463a741b565510eef0dc65bd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fd463a741b565510eef0dc65bd4bcba1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fd463a741b565510eef0dc65bd4bcba1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aca3bab01b565510eef0dc65bd4bcbfd^sys_idNOT IN7d463a741b565510eef0dc65bd4bcb7d,fd463a741b565510eef0dc65bd4bcb80"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aca3bab01b565510eef0dc65bd4bcbfd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>7d463a741b565510eef0dc65bd4bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_aca3bab01b565510eef0dc65bd4bcbfd_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aca3bab01b565510eef0dc65bd4bcbfd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-30 09:27:19</sys_created_on>
+        <sys_id>fd463a741b565510eef0dc65bd4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_aca3bab01b565510eef0dc65bd4bcbfd_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-30 09:27:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=aca3bab01b565510eef0dc65bd4bcbfd"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=aca3bab01b565510eef0dc65bd4bcbfd"/>
+</record_update>

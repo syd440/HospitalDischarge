@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_crwf_intcare.Audience for appIntCare</api_name>
+        <description/>
+        <name>Audience for appIntCare</name>
+        <roles>efd1291d1ba91110eef0dc65bd4bcb85,3bd1291d1ba91110eef0dc65bd4bcbb1</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 12:37:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>397882151b6d1110eef0dc65bd4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for appIntCare</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_ux_applicability_397882151b6d1110eef0dc65bd4bcb87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:52:42</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

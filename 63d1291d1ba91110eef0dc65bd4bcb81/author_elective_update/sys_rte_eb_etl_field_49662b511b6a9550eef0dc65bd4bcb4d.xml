@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>nursing_team.name</field>
+        <name>Nursing team</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 12:30:12</sys_created_on>
+        <sys_id>49662b511b6a9550eef0dc65bd4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nursing team</sys_name>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Import missing fields_etl_ihub">0166e7511b6a9550eef0dc65bd4bcb72</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Target_x_crwf_intcare_patient">c9662b511b6a9550eef0dc65bd4bcb40</sys_rte_eb_entity>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_49662b511b6a9550eef0dc65bd4bcb4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 12:30:12</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_rte_eb_etl_field_49662b511b6a9550eef0dc65bd4bcb4d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>false</coalesce><coercion_action>create</coercion_action><field>nursing_team.name</field><name>Nursing team</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-14 12:30:12</sys_created_on><sys_id>49662b511b6a9550eef0dc65bd4bcb4d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Nursing team</sys_name><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_rte_eb_definition display_value="Import missing fields_etl_ihub">0166e7511b6a9550eef0dc65bd4bcb72</sys_rte_eb_definition><sys_rte_eb_entity display_value="Target_x_crwf_intcare_patient">c9662b511b6a9550eef0dc65bd4bcb40</sys_rte_eb_entity><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_rte_eb_etl_field_49662b511b6a9550eef0dc65bd4bcb4d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-14 12:30:12</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>-1541019008</payload_hash>
+        <record_name>Nursing team</record_name>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 12:30:12</sys_created_on>
+        <sys_id>4d662b511b6a9550eef0dc65bd4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183d679392e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 12:30:12</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>85662b51f66a95501916592a1077a74e</update_guid>
+        <update_guid_history>85662b51f66a95501916592a1077a74e:-1541019008</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-14 12:59:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>01ef0c7d98274588861dd2ce68d32c90</sys_id>
+        <sys_metadata>49662b511b6a9550eef0dc65bd4bcb4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nursing team</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_49662b511b6a9550eef0dc65bd4bcb4d</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_49662b511b6a9550eef0dc65bd4bcb4d">4d662b511b6a9550eef0dc65bd4bcb4e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

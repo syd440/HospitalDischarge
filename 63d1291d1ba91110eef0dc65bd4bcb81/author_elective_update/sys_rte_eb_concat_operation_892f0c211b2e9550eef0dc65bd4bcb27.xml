@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_concat_operation">
+    <sys_rte_eb_concat_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <joining_string/>
+        <name>CONCAT_sn_ihub_target_patient</name>
+        <operation_group/>
+        <order>9999</order>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>812f0c211b2e9550eef0dc65bd4bcb1c,0d2f0c211b2e9550eef0dc65bd4bcb1d</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_concat_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:28:14</sys_created_on>
+        <sys_id>892f0c211b2e9550eef0dc65bd4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONCAT_sn_ihub_target_patient</sys_name>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Import beds_etl_ihub">b6edccad1bea9550eef0dc65bd4bcb1e</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_crwf_intcare_bed_demo_data">092f0c211b2e9550eef0dc65bd4bcb10</sys_rte_eb_entity>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_rte_eb_concat_operation_892f0c211b2e9550eef0dc65bd4bcb27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:28:14</sys_updated_on>
+        <target_sys_rte_eb_field display_value="sn_ihub_target_patient">812f0c211b2e9550eef0dc65bd4bcb1c</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Concatenation">4e38102a73b333002b6265a751ab9e1f</type>
+    </sys_rte_eb_concat_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_rte_eb_concat_operation_892f0c211b2e9550eef0dc65bd4bcb27</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_concat_operation"&gt;&lt;sys_rte_eb_concat_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;joining_string/&gt;&lt;name&gt;CONCAT_sn_ihub_target_patient&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;9999&lt;/order&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields&gt;812f0c211b2e9550eef0dc65bd4bcb1c,0d2f0c211b2e9550eef0dc65bd4bcb1d&lt;/source_sys_rte_eb_fields&gt;&lt;sys_class_name&gt;sys_rte_eb_concat_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-14 15:28:14&lt;/sys_created_on&gt;&lt;sys_id&gt;892f0c211b2e9550eef0dc65bd4bcb27&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CONCAT_sn_ihub_target_patient&lt;/sys_name&gt;&lt;sys_package display_value="Hospital Discharge" source="x_crwf_intcare"&gt;63d1291d1ba91110eef0dc65bd4bcb81&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Import beds_etl_ihub"&gt;b6edccad1bea9550eef0dc65bd4bcb1e&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_crwf_intcare_bed_demo_data"&gt;092f0c211b2e9550eef0dc65bd4bcb10&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Hospital Discharge"&gt;63d1291d1ba91110eef0dc65bd4bcb81&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_concat_operation_892f0c211b2e9550eef0dc65bd4bcb27&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-14 15:28:14&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="sn_ihub_target_patient"&gt;812f0c211b2e9550eef0dc65bd4bcb1c&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Concatenation"&gt;4e38102a73b333002b6265a751ab9e1f&lt;/type&gt;&lt;/sys_rte_eb_concat_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1522905274</payload_hash>
+        <record_name>CONCAT_sn_ihub_target_patient</record_name>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:28:14</sys_created_on>
+        <sys_id>cd2f0c211b2e9550eef0dc65bd4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183d71c38a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:28:14</sys_updated_on>
+        <type>RTE Entity Concatenation Operation</type>
+        <update_guid>092f0c21552e9550f4a698e4dbd6a828</update_guid>
+        <update_guid_history>092f0c21552e9550f4a698e4dbd6a828:-1522905274</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:28:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_concat_operation">sys_rte_eb_concat_operation</sys_db_object>
+        <sys_id>a7ff5384656d45f8b2b53ff680652019</sys_id>
+        <sys_metadata>892f0c211b2e9550eef0dc65bd4bcb27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONCAT_sn_ihub_target_patient</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_concat_operation_892f0c211b2e9550eef0dc65bd4bcb27</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_concat_operation_892f0c211b2e9550eef0dc65bd4bcb27">cd2f0c211b2e9550eef0dc65bd4bcb28</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

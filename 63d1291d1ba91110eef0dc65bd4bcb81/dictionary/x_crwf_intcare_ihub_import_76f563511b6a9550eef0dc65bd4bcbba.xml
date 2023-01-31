@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1e86eb511b6a9550eef0dc65bd4bcb24" extends="sys_import_set_row" label="Import missing fields" max_length="40" name="x_crwf_intcare_ihub_import_76f563511b6a9550eef0dc65bd4bcbba" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bed" label="Bed" max_length="40" name="u_bed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Care home booking" label="Care home booking" max_length="40" name="u_care_home_booking" type="string"/>
+        <element attributes="import_attribute_name=Days on ward" label="Days on ward" max_length="40" name="u_days_on_ward" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nursing team" label="Nursing team" max_length="40" name="u_nursing_team" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Patient Number" label="Patient Number" max_length="40" name="u_patient_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Person" label="Person" max_length="40" name="u_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Transport booking" label="Transport booking" max_length="40" name="u_transport_booking" type="string"/>
+    </element>
+</database>

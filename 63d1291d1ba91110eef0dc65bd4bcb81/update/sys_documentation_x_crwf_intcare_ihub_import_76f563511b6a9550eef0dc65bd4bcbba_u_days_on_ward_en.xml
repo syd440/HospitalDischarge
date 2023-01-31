@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_days_on_ward" label="Days on ward" language="en" table="x_crwf_intcare_ihub_import_76f563511b6a9550eef0dc65bd4bcbba">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_days_on_ward</element>
+            <help/>
+            <hint/>
+            <label>Days on ward</label>
+            <language>en</language>
+            <name>x_crwf_intcare_ihub_import_76f563511b6a9550eef0dc65bd4bcbba</name>
+            <plural>Days on wards</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-14 12:30:49</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Days on ward</sys_name>
+            <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+            <sys_update_name>sys_documentation_x_crwf_intcare_ihub_import_76f563511b6a9550eef0dc65bd4bcbba_u_days_on_ward_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-14 08:51:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

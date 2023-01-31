@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_crwf_intcare_patient">status=Discharged<item display_value="Discharged" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Discharged"/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {}]]></script_false>
+        <script_true><![CDATA[function onCondition() {}]]></script_true>
+        <set_values/>
+        <short_description>show Discharged fields</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 14:03:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>085c1a1d1bad1110eef0dc65bd4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>show Discharged fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IntCare" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_ui_policy_085c1a1d1bad1110eef0dc65bd4bcb22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 14:03:45</sys_updated_on>
+        <table>x_crwf_intcare_patient</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_ui_policy_085c1a1d1bad1110eef0dc65bd4bcb22</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_crwf_intcare_patient"&gt;status=Discharged&lt;item display_value="Discharged" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Discharged"/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;show Discharged fields&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-25 14:03:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;085c1a1d1bad1110eef0dc65bd4bcb22&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;show Discharged fields&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="IntCare" source="x_crwf_intcare"&gt;63d1291d1ba91110eef0dc65bd4bcb81&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IntCare"&gt;63d1291d1ba91110eef0dc65bd4bcb81&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_085c1a1d1bad1110eef0dc65bd4bcb22&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-25 14:03:45&lt;/sys_updated_on&gt;&lt;table&gt;x_crwf_intcare_patient&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1552223715</payload_hash>
+        <record_name>show Discharged fields</record_name>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 14:03:45</sys_created_on>
+        <sys_id>885c1a1d1bad1110eef0dc65bd4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d550e6400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 14:03:45</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>c05c1a1d32ad11101911a484574ce124</update_guid>
+        <update_guid_history>c05c1a1d32ad11101911a484574ce124:-1552223715</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 14:07:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>3ecfd7ebf4db451890c12eee5a7d54e4</sys_id>
+        <sys_metadata>085c1a1d1bad1110eef0dc65bd4bcb22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>show Discharged fields</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent display_value="Patient Record">9bf65e551bad1110eef0dc65bd4bcb31</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_085c1a1d1bad1110eef0dc65bd4bcb22</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_085c1a1d1bad1110eef0dc65bd4bcb22">885c1a1d1bad1110eef0dc65bd4bcb24</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

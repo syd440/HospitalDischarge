@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>017882157a6d1110cc5a14ddbd101421</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>intcare</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 12:36:59</sys_created_on>
+        <sys_id>c1788215ed6d1110186ff7a818265e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IntCare</sys_name>
+        <sys_package display_value="IntCare" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_ux_page_registry_c1788215ed6d1110186ff7a818265e21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 12:36:59</sys_updated_on>
+        <title>IntCare</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_ux_page_registry_c1788215ed6d1110186ff7a818265e21</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>017882157a6d1110cc5a14ddbd101421</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>intcare</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-25 12:36:59</sys_created_on><sys_id>c1788215ed6d1110186ff7a818265e21</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IntCare</sys_name><sys_package display_value="IntCare" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_scope display_value="IntCare">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_ux_page_registry_c1788215ed6d1110186ff7a818265e21</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-25 12:36:59</sys_updated_on><title>IntCare</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1782495932</payload_hash>
+        <record_name>IntCare</record_name>
+        <reverted_from/>
+        <source>8299a601872111108941da883cbb35c3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 20:23:18</sys_created_on>
+        <sys_id>4a1fced91b6d1110eef0dc65bd4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d18606f00000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:48</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>0a1fced9606d111004afc5f6ee51aec4</update_guid>
+        <update_guid_history>0a1fced9606d111004afc5f6ee51aec4:1782495932</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 13:06:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>191c4e4553234e889ea4a77001c43240</sys_id>
+        <sys_metadata>c1788215ed6d1110186ff7a818265e21</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IntCare</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_c1788215ed6d1110186ff7a818265e21</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_c1788215ed6d1110186ff7a818265e21">4a1fced91b6d1110eef0dc65bd4bcbc4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

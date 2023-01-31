@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 13:52:30</sys_created_on>
+        <sys_id>b639b7d51baa9550eef0dc65bd4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_crwf_intcare_bed_demo_data.x_crwf_intcare.user</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_security_acl display_value="x_crwf_intcare_bed_demo_data">3639b7d51baa9550eef0dc65bd4bcb0c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b639b7d51baa9550eef0dc65bd4bcb0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:52:32</sys_updated_on>
+        <sys_user_role display_value="x_crwf_intcare.user" name="x_crwf_intcare.user">3bd1291d1ba91110eef0dc65bd4bcbb1</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

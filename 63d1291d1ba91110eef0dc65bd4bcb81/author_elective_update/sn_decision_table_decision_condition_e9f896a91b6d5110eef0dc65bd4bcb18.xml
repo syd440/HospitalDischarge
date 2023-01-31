@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="Ward">b6dd2b2d1ba19110eef0dc65bd4bcba9</decision_input>
+        <decision_table display_value="Nursing team">5b565ae51b6d5110eef0dc65bd4bcb34</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table>x_crwf_intcare_bed</field_parent_table>
+        <label>Ward</label>
+        <order>50</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 08:27:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e9f896a91b6d5110eef0dc65bd4bcb18</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IntCare" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_e9f896a91b6d5110eef0dc65bd4bcb18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 14:38:30</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sn_decision_table_decision_condition_e9f896a91b6d5110eef0dc65bd4bcb18</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="Ward">b6dd2b2d1ba19110eef0dc65bd4bcba9</decision_input><decision_table display_value="Nursing team">5b565ae51b6d5110eef0dc65bd4bcb34</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table>x_crwf_intcare_bed</field_parent_table><label>Ward</label><order>50</order><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-26 08:27:35</sys_created_on><sys_domain>global</sys_domain><sys_id>e9f896a91b6d5110eef0dc65bd4bcb18</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="IntCare" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_scope display_value="IntCare">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sn_decision_table_decision_condition_e9f896a91b6d5110eef0dc65bd4bcb18</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-26 14:38:30</sys_updated_on><type display_value="String">747127c1bf3320001875647fcf0739e0</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>1664922014</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 14:38:30</sys_created_on>
+        <sys_id>8bdd232d1ba19110eef0dc65bd4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182da9715ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 14:38:30</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>c3dd232d1fa19110910208a0f9701b88</update_guid>
+        <update_guid_history>c3dd232d1fa19110910208a0f9701b88:1664922014,735b3e2d0bed5110b5657069ba8f2590:51372896,735b3e2d0bed5110b5657069ba8f2590:51372896,23dab22dd4ed5110cf8da6b08b1b4859:295202876,69f896a9cf6d5110014c2ce577b78019:-1262940096</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">399faf6d1ba19110eef0dc65bd4bcb6d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 14:46:04</sys_created_on>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>34a4b69e1c394b589d58d984bb3c4040</sys_id>
+        <sys_metadata>e9f896a91b6d5110eef0dc65bd4bcb18</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_e9f896a91b6d5110eef0dc65bd4bcb18</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_e9f896a91b6d5110eef0dc65bd4bcb18">8bdd232d1ba19110eef0dc65bd4bcb88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

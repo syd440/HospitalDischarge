@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_crwf_intcare_activity" version="2" view="Admin">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>when</element>
+            <list_id display_value="x_crwf_intcare_activity" element="NULL" name="x_crwf_intcare_activity" parent="NULL" relationship="NULL" sys_domain="global" view="74804e0e870791508941da883cbb3534">93ba46c6874791508941da883cbb3584</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 10:16:36</sys_created_on>
+            <sys_id>5fba46c6874791508941da883cbb3584</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 10:16:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>patient.patient_number</element>
+            <list_id display_value="x_crwf_intcare_activity" element="NULL" name="x_crwf_intcare_activity" parent="NULL" relationship="NULL" sys_domain="global" view="74804e0e870791508941da883cbb3534">93ba46c6874791508941da883cbb3584</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 10:16:36</sys_created_on>
+            <sys_id>53ba46c6874791508941da883cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 10:16:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>patient</element>
+            <list_id display_value="x_crwf_intcare_activity" element="NULL" name="x_crwf_intcare_activity" parent="NULL" relationship="NULL" sys_domain="global" view="74804e0e870791508941da883cbb3534">93ba46c6874791508941da883cbb3584</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 10:16:36</sys_created_on>
+            <sys_id>57ba46c6874791508941da883cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 10:16:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>activity</element>
+            <list_id display_value="x_crwf_intcare_activity" element="NULL" name="x_crwf_intcare_activity" parent="NULL" relationship="NULL" sys_domain="global" view="74804e0e870791508941da883cbb3534">93ba46c6874791508941da883cbb3584</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 10:16:36</sys_created_on>
+            <sys_id>5bba46c6874791508941da883cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 10:16:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>patient_number</element>
+            <list_id display_value="x_crwf_intcare_activity" element="NULL" name="x_crwf_intcare_activity" parent="NULL" relationship="NULL" sys_domain="global" view="74804e0e870791508941da883cbb3534">93ba46c6874791508941da883cbb3584</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 10:16:36</sys_created_on>
+            <sys_id>5fba46c6874791508941da883cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 10:16:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_crwf_intcare_activity</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 10:16:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93ba46c6874791508941da883cbb3584</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_crwf_intcare_activity</sys_name>
+            <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+            <sys_update_name>sys_ui_list_x_crwf_intcare_activity_Admin</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-14 08:52:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Admin" name="Admin">74804e0e870791508941da883cbb3534</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

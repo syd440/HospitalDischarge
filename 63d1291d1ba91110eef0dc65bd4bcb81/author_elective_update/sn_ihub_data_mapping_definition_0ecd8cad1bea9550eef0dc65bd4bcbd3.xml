@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="DELETE">
+        <integration_table>sys_data_source</integration_table>
+        <published_source_structure/>
+        <record_id>72bd8cad1bea9550eef0dc65bd4bcb86</record_id>
+        <source_structure/>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:22:18</sys_created_on>
+        <sys_id>0ecd8cad1bea9550eef0dc65bd4bcbd3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_0ecd8cad1bea9550eef0dc65bd4bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:23:44</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sn_ihub_data_mapping_definition_0ecd8cad1bea9550eef0dc65bd4bcbd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition"><sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE"><integration_table>sys_data_source</integration_table><published_source_structure/><record_id>72bd8cad1bea9550eef0dc65bd4bcb86</record_id><source_structure/><sys_class_name>sn_ihub_data_mapping_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-14 15:22:18</sys_created_on><sys_id>0ecd8cad1bea9550eef0dc65bd4bcbd3</sys_id><sys_mod_count>4</sys_mod_count><sys_name/><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sn_ihub_data_mapping_definition_0ecd8cad1bea9550eef0dc65bd4bcbd3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-14 15:23:44</sys_updated_on></sn_ihub_data_mapping_definition></record_update>]]></payload>
+        <payload_hash>413723137</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b55585771ba30110eef0dc65bd4bcbcf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 15:51:26</sys_created_on>
+        <sys_id>56543364877611108941da883cbb35e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1840ab10f560000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-24 15:51:26</sys_updated_on>
+        <type>Integration Data Mapping Definition</type>
+        <update_guid>92543364a4761110871089dbf4634fe8</update_guid>
+        <update_guid_history>92543364a4761110871089dbf4634fe8:0,16543364027611101023ec6085df43e5:0,931e84edcbea95505d6b81a4ee927422:-849299304,df0e04ed70ea9550ac56f4b0743232a5:-1373557324,180e04ed6fea9550f76cbb64b811eb23:-147838569,3fedccad77ea955078307b221b874d2b:-1072853480,cecd8cad20ea9550d34d36cafdd3b3d4:-1134276983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5a543364877611108941da883cbb35ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 15:51:26</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_data_mapping_definition">sn_ihub_data_mapping_definition</sys_db_object>
+        <sys_id>375e1a3477594a8e92407b0739a73219</sys_id>
+        <sys_metadata>0ecd8cad1bea9550eef0dc65bd4bcbd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sn_ihub_data_mapping_definition_0ecd8cad1bea9550eef0dc65bd4bcbd3</sys_update_name>
+        <sys_update_version display_value="sn_ihub_data_mapping_definition_0ecd8cad1bea9550eef0dc65bd4bcbd3">56543364877611108941da883cbb35e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

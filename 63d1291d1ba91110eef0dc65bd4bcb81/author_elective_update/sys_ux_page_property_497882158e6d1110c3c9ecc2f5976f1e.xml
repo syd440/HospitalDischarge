@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="">c1788215ed6d1110186ff7a818265e21</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 12:37:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>497882158e6d1110c3c9ecc2f5976f1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="IntCare" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_ux_page_property_497882158e6d1110c3c9ecc2f5976f1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 12:37:00</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_crwf_intcare.c1788215ed6d1110186ff7a818265e21.root.globalSearchDataConfigId</unique_name>
+        <value>45788215956d1110492f086fd7b7ad1d</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_ux_page_property_497882158e6d1110c3c9ecc2f5976f1e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>globalSearchDataConfigId</name><page display_value="">c1788215ed6d1110186ff7a818265e21</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-25 12:37:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>497882158e6d1110c3c9ecc2f5976f1e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>globalSearchDataConfigId</sys_name><sys_package display_value="IntCare" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_scope display_value="IntCare">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_ux_page_property_497882158e6d1110c3c9ecc2f5976f1e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-25 12:37:00</sys_updated_on><type>string</type><unique_name>x_crwf_intcare.c1788215ed6d1110186ff7a818265e21.root.globalSearchDataConfigId</unique_name><value>45788215956d1110492f086fd7b7ad1d</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>839459127</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source>8299a601872111108941da883cbb35c3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 20:23:18</sys_created_on>
+        <sys_id>5e1fced91b6d1110eef0dc65bd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d18606f00000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:48</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>1e1fced9846d111065ad393a181307ee</update_guid>
+        <update_guid_history>1e1fced9846d111065ad393a181307ee:839459127</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 13:06:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>16d83e34bf3643429c00ae491b070b41</sys_id>
+        <sys_metadata>497882158e6d1110c3c9ecc2f5976f1e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_497882158e6d1110c3c9ecc2f5976f1e</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_497882158e6d1110c3c9ecc2f5976f1e">5e1fced91b6d1110eef0dc65bd4bcbee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

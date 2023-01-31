@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Nursing team">5b565ae51b6d5110eef0dc65bd4bcb34</decision_table>
+        <label>Nursing team: Haverty Nursing Team</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 08:27:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5f896a91b6d5110eef0dc65bd4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nursing team: Haverty Nursing Team</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_decision_multi_result_a5f896a91b6d5110eef0dc65bd4bcb3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:52:00</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=a5f896a91b6d5110eef0dc65bd4bcb3e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>a5f896a91b6d5110eef0dc65bd4bcb3e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 08:27:35</sys_created_on>
+        <sys_id>a9f896a91b6d5110eef0dc65bd4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 08:27:35</sys_updated_on>
+        <value>67e39a251b6d5110eef0dc65bd4bcb41</value>
+        <variable display_value="">edf856a91b6d5110eef0dc65bd4bcbfe</variable>
+    </sys_variable_value>
+</record_update>

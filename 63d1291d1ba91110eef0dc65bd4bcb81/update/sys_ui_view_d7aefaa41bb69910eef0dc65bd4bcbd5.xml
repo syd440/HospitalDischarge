@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>PAD_discharge_requirements</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 11:56:56</sys_created_on>
+        <sys_id>d7aefaa41bb69910eef0dc65bd4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PAD discharge requirements</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_ui_view_d7aefaa41bb69910eef0dc65bd4bcbd5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:51:57</sys_updated_on>
+        <title>PAD discharge requirements</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

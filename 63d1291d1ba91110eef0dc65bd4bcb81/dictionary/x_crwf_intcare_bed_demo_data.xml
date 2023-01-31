@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fc39b3d51baa9550eef0dc65bd4bcba7" label="Bed Demo Data" max_length="40" name="x_crwf_intcare_bed_demo_data" type="collection">
+        <element label="Bed Number" max_length="40" name="bed_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Occupied" max_length="40" name="occupied" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Patient" max_length="32" name="patient" reference="x_crwf_intcare_patient" type="reference"/>
+        <element label="Patient number" max_length="40" name="patient_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ward" max_length="40" name="ward" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Haverty" sequence="0" value="Haverty"/>
+                <element inactive_on_update="false" label="Luddy" sequence="0" value="Luddy"/>
+                <element inactive_on_update="false" label="McDermott" sequence="0" value="McDermott"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

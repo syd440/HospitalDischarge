@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="66ea8a5a1b6a5110eef0dc65bd4bcb45" label="Activity" max_length="40" name="x_crwf_intcare_activity" type="collection">
+        <element label="Activity" max_length="400" name="activity" type="string"/>
+        <element label="Keep on refresh" max_length="40" name="keep_on_refresh" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_crwf_intcare_patient" type="reference"/>
+        <element label="Patient number" max_length="40" name="patient_number" type="string"/>
+        <element label="When" max_length="40" name="when" type="glide_time"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9bf65e551bad1110eef0dc65bd4bcb31" label="Patient Record" max_length="40" name="x_crwf_intcare_patient" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Bed" max_length="32" name="bed" reference="x_crwf_intcare_bed" reference_qual="occupied=No" reference_qual_condition="occupied=No" type="reference"/>
+        <element attributes="encode_utf8=false" label="Care home booking" max_length="32" name="care_home_booking" reference="x_crwf_intcare_care_home" reference_qual="booked=No" reference_qual_condition="booked=No" type="reference"/>
+        <element label="Automation comments" max_length="400" name="comments" read_only="true" type="string"/>
+        <element label="Critical care required" max_length="40" name="critical_care_required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Date admitted" max_length="40" name="date_admitted" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date discharged" max_length="40" name="date_discharged" read_only="true" type="glide_date"/>
+        <element label="Days on ward" max_length="40" name="days_on_ward" read_only="true" type="integer"/>
+        <element choice="1" label="Discharge to" max_length="40" name="discharge_to" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Home" sequence="0" value="home"/>
+                <element inactive_on_update="false" label="Care home" sequence="1" value="care_home"/>
+                <element inactive_on_update="false" label="Another hospital" sequence="2" value="another_hospital"/>
+            </choice>
+        </element>
+        <element label="Keep on refresh" max_length="40" name="keep_on_refresh" type="boolean"/>
+        <element label="Medical supplies required" max_length="40" name="medical_supplies_required" type="boolean"/>
+        <element label="Medicines required" max_length="40" name="medicines_required" type="boolean"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Nursing team" max_length="32" name="nursing_team" read_only="true" reference="sys_user_group" type="reference"/>
+        <element label="Patient number" max_length="40" name="patient_number" type="string"/>
+        <element attributes="encode_utf8=false" display="true" label="Patient" max_length="32" name="person" reference="sys_user" type="reference"/>
+        <element label="Round the clock care required" max_length="40" name="round_the_clock_care_required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - Pending admission" sequence="0" value="1 - Pending admission"/>
+                <element inactive_on_update="false" label="2 - Admitted" sequence="1" value="2 - Admitted"/>
+                <element inactive_on_update="false" label="3 - Ready for discharge" sequence="2" value="3 - Ready for discharge"/>
+                <element inactive_on_update="false" label="4 - Discharged today" sequence="3" value="4 - Discharged today"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" label="Transport booking" max_length="32" name="transport_booking" reference="x_crwf_intcare_transport" reference_qual="booked=No" reference_qual_condition="booked=No" type="reference"/>
+        <element label="Transport required" max_length="40" name="transport_required" type="boolean"/>
+        <index name="index">
+            <element name="bed"/>
+        </index>
+        <index name="index2">
+            <element name="care_home_booking"/>
+        </index>
+        <index name="index3">
+            <element name="nursing_team"/>
+        </index>
+        <index name="index4">
+            <element name="person"/>
+        </index>
+        <index name="index5">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index6">
+            <element name="transport_booking"/>
+        </index>
+    </element>
+</database>

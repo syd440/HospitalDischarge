@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f6b0464e870791508941da883cbb35bc</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_crwf_intcare_patient">
+    <x_crwf_intcare_patient action="INSERT_OR_UPDATE">
+        <bed display_value="McDermott 3">0dcfca1d1b6d1110eef0dc65bd4bcbf2</bed>
+        <care_home_booking/>
+        <comments/>
+        <critical_care_required>false</critical_care_required>
+        <date_admitted>2022-10-31</date_admitted>
+        <date_discharged/>
+        <days_on_ward>10</days_on_ward>
+        <discharge_to/>
+        <keep_on_refresh>true</keep_on_refresh>
+        <medical_supplies_required>false</medical_supplies_required>
+        <medicines_required>false</medicines_required>
+        <notes/>
+        <number>PAT0001242</number>
+        <nursing_team display_value="McDermott Nursing Team" name="McDermott Nursing Team">05d356251b6d5110eef0dc65bd4bcbae</nursing_team>
+        <patient_number>P543395</patient_number>
+        <person display_value="Nadia Wilshire">fe82abf03710200044e0bfc8bcbe5d21</person>
+        <round_the_clock_care_required>false</round_the_clock_care_required>
+        <status>2 - Admitted</status>
+        <sys_class_name>x_crwf_intcare_patient</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 09:32:53</sys_created_on>
+        <sys_id>f6b0464e870791508941da883cbb35bc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 11:15:15</sys_updated_on>
+        <transport_booking/>
+        <transport_required>false</transport_required>
+    </x_crwf_intcare_patient>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 15:26:28</sys_created_on>
+        <sys_id>daa19bc6874b91508941da883cbb352a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nadia Wilshire</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_metadata_link_daa19bc6874b91508941da883cbb352a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:52:20</sys_updated_on>
+        <tablename>x_crwf_intcare_patient</tablename>
+    </sys_metadata_link>
+</record_update>

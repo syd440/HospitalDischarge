@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>8dcfca1d1b6d1110eef0dc65bd4bcbf1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_crwf_intcare_bed">
+    <x_crwf_intcare_bed action="INSERT_OR_UPDATE">
+        <bed_name>McDermott 1</bed_name>
+        <bed_number>1</bed_number>
+        <number>BED0001007</number>
+        <occupied>Yes</occupied>
+        <patient display_value="Isaac Zackery">7eb0464e870791508941da883cbb35c6</patient>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 13:08:56</sys_created_on>
+        <sys_id>8dcfca1d1b6d1110eef0dc65bd4bcbf1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 09:32:54</sys_updated_on>
+        <ward>McDermott</ward>
+    </x_crwf_intcare_bed>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 15:20:02</sys_created_on>
+        <sys_id>50305746874b91508941da883cbb3550</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>McDermott 1</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_metadata_link_50305746874b91508941da883cbb3550</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:52</sys_updated_on>
+        <tablename>x_crwf_intcare_bed</tablename>
+    </sys_metadata_link>
+</record_update>

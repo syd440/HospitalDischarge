@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>3f6fc4611b2e9550eef0dc65bd4bcbdb</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_crwf_intcare_bed_demo_data">
+    <x_crwf_intcare_bed_demo_data action="INSERT_OR_UPDATE">
+        <bed_number>1</bed_number>
+        <name>Haverty 1</name>
+        <number>BDD0001055</number>
+        <occupied>Yes</occupied>
+        <patient display_value="Mabel Weeden">3ab0464e870791508941da883cbb35c3</patient>
+        <patient_number>P543394</patient_number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:29:30</sys_created_on>
+        <sys_id>3f6fc4611b2e9550eef0dc65bd4bcbdb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 09:53:47</sys_updated_on>
+        <ward>Haverty</ward>
+    </x_crwf_intcare_bed_demo_data>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 15:27:25</sys_created_on>
+        <sys_id>50e1930a874b91508941da883cbb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Haverty 1</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_metadata_link_50e1930a874b91508941da883cbb35c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:51:31</sys_updated_on>
+        <tablename>x_crwf_intcare_bed_demo_data</tablename>
+    </sys_metadata_link>
+</record_update>

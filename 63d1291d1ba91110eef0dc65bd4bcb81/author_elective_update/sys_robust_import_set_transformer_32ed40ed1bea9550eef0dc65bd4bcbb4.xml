@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="DELETE">
+        <active>true</active>
+        <batch_size>10</batch_size>
+        <description>RTE definition for Import beds</description>
+        <name>Import beds_rte_ihub</name>
+        <properties/>
+        <robust_transform_engine/>
+        <source_table>x_crwf_intcare_ihub_import_b6bd8cad1bea9550eef0dc65bd4bcb85</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:22:53</sys_created_on>
+        <sys_id>32ed40ed1bea9550eef0dc65bd4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import beds_rte_ihub</sys_name>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_32ed40ed1bea9550eef0dc65bd4bcbb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:22:53</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_robust_import_set_transformer_32ed40ed1bea9550eef0dc65bd4bcbb4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>10</batch_size><description>RTE definition for Import beds</description><name>Import beds_rte_ihub</name><properties/><robust_transform_engine/><source_table>x_crwf_intcare_ihub_import_b6bd8cad1bea9550eef0dc65bd4bcb85</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-14 15:22:53</sys_created_on><sys_id>32ed40ed1bea9550eef0dc65bd4bcbb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Import beds_rte_ihub</sys_name><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_robust_import_set_transformer_32ed40ed1bea9550eef0dc65bd4bcbb4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-14 15:22:53</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
+        <payload_hash>-203236851</payload_hash>
+        <record_name>Import beds_rte_ihub</record_name>
+        <reverted_from/>
+        <source>b55585771ba30110eef0dc65bd4bcbcf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 15:51:26</sys_created_on>
+        <sys_id>1e543364877611108941da883cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1840ab10e0f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-24 15:51:26</sys_updated_on>
+        <type>Robust Import Set Transformer</type>
+        <update_guid>5a543364807611107b56c1a3a453c5a9</update_guid>
+        <update_guid_history>5a543364807611107b56c1a3a453c5a9:0,f6ed40ed3fea955076d7a799fa98fbb5:866510598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 15:51:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_robust_import_set_transformer">sys_robust_import_set_transformer</sys_db_object>
+        <sys_id>73afe3c1fa8e4050841dbe2eb63426a4</sys_id>
+        <sys_metadata>32ed40ed1bea9550eef0dc65bd4bcbb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import beds_rte_ihub</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_robust_import_set_transformer_32ed40ed1bea9550eef0dc65bd4bcbb4</sys_update_name>
+        <sys_update_version display_value="sys_robust_import_set_transformer_32ed40ed1bea9550eef0dc65bd4bcbb4">1e543364877611108941da883cbb35a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

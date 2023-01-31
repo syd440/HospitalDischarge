@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_patient_sn_ihub_pill_uid_1665761042066</field>
+        <name>Patient_sn_ihub_target_patient</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:26:37</sys_created_on>
+        <sys_id>adce04211b2e9550eef0dc65bd4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient_sn_ihub_target_patient</sys_name>
+        <sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Import beds_etl_ihub">b6edccad1bea9550eef0dc65bd4bcb1e</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_crwf_intcare_bed_demo_data">e1ce04211b2e9550eef0dc65bd4bcb8d</sys_rte_eb_entity>
+        <sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_adce04211b2e9550eef0dc65bd4bcba6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:26:37</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</application>
+        <file_path/>
+        <instance_id>842a743bdb2749500ae3ac44d49619aa</instance_id>
+        <instance_name>creatordevdemo</instance_name>
+        <name>sys_rte_eb_etl_field_adce04211b2e9550eef0dc65bd4bcba6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>false</coalesce><coercion_action>create</coercion_action><field>u_patient_sn_ihub_pill_uid_1665761042066</field><name>Patient_sn_ihub_target_patient</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-14 15:26:37</sys_created_on><sys_id>adce04211b2e9550eef0dc65bd4bcba6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Patient_sn_ihub_target_patient</sys_name><sys_package display_value="Hospital Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package><sys_policy/><sys_rte_eb_definition display_value="Import beds_etl_ihub">b6edccad1bea9550eef0dc65bd4bcb1e</sys_rte_eb_definition><sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_crwf_intcare_bed_demo_data">e1ce04211b2e9550eef0dc65bd4bcb8d</sys_rte_eb_entity><sys_scope display_value="Hospital Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope><sys_update_name>sys_rte_eb_etl_field_adce04211b2e9550eef0dc65bd4bcba6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-14 15:26:37</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>-1661991309</payload_hash>
+        <record_name>Patient_sn_ihub_target_patient</record_name>
+        <reverted_from/>
+        <source>efd1291d1ba91110eef0dc65bd4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:26:37</sys_created_on>
+        <sys_id>e1ce04211b2e9550eef0dc65bd4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183d71abee70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-14 15:26:37</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>2dce04218a2e95508e9a5110aa3bfaa7</update_guid>
+        <update_guid_history>2dce04218a2e95508e9a5110aa3bfaa7:-1661991309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 15:28:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>1f8b98e3111848449ee92266865234a1</sys_id>
+        <sys_metadata>adce04211b2e9550eef0dc65bd4bcba6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient_sn_ihub_target_patient</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_scope_delete display_value="">65d5548a9cc4480cad31e64d5f775344</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_adce04211b2e9550eef0dc65bd4bcba6</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_adce04211b2e9550eef0dc65bd4bcba6">e1ce04211b2e9550eef0dc65bd4bcba8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:53:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

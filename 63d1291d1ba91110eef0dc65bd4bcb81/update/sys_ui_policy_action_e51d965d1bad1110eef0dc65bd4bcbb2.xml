@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>date_discharged</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 14:07:08</sys_created_on>
+        <sys_id>e51d965d1bad1110eef0dc65bd4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_discharged</sys_name>
+        <sys_package display_value="IntCare Discharge" source="x_crwf_intcare">63d1291d1ba91110eef0dc65bd4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntCare Discharge">63d1291d1ba91110eef0dc65bd4bcb81</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e51d965d1bad1110eef0dc65bd4bcbb2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-14 08:52:38</sys_updated_on>
+        <table>x_crwf_intcare_patient</table>
+        <ui_policy display_value="Show Ready for discharge fields">405cd61d1bad1110eef0dc65bd4bcb90</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
